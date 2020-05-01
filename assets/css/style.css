@@ -102,6 +102,10 @@ h5 {
         font-size: .84em;
     }
 
+    #about-me {
+        font-size: 1.25em;
+    }
+
     .container-fluid {
         padding-left: 0;
         padding-right: 0;
