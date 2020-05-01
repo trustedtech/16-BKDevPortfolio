@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Brian King - Developer Profile</title>
+    
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Orbitron|Nunito+Sans|Raleway|Titillium+Web&display=swap" rel="stylesheet">
+
+    
+</head>
+        
+<body class="container">
+    <header>
+        <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-white">
+
+            <a class="navbar-brand" href="./index.html">
+                <!-- <img src="./assets/img/bk-icon-devprof-128.png" width="128" height="99" alt=""> -->
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="128px" height="98px" viewBox="0 0 128 98" enable-background="new 0 0 128 98" xml:space="preserve">
+                    <rect fill="#FFFFFF" width="128" height="90"/>
+                    <rect y="88" fill="#D1D3D4" width="128" height="5.002"/>
+                    <rect y="95.002" fill="#E6E7E8" width="128" height="2.999"/>
+                    <text transform="matrix(1 0 0 1 33 80)" fill="#F15A29" font-family="Orbitron, sans-serif" font-weight="bolder" font-size="60">bK</text>
+                    <line fill="none" x1="39.5" y1="99" x2="39" y2="99"/>
+                    <rect x="70" y="37.5" fill="#FFFFFF" width="58" height="1.5"/>
+                    <rect x="20" y="78" fill="#FFFFFF" width="65.5" height="1.5"/>
+                </svg>
+            </a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Intro<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+
+        <div id="name-banner" class="row section">
+
+            <div class="col">
+                <h1 style="font-family:'Exo 2', sans-serif; font-weight:bold;">Brian A. King</h1>
+                <div class="roles">
+                    <span>Full Stack Web Developer</span><br>
+                    <span>IT Systems Engineer</span>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div class="col text-right">
+                        <div class="navbar navbar-social navbar-expand navbar-light bg-white">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item social"><a href="https://github.com/trustedtech" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-w-14 fa-2x"></i></a></li>
+                                <li class="nav-item social"><a href="https://www.linkedin.com/in/trustedtech" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-w-14 fa-2x"></i></a></li>
+                                <li class="nav-item social"><a href="./assets/files/brianking_resume.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf fa-w-14 fa-2x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section">
+            
+            <div class="col">
+                <h4>Contact</h4>
+                <hr>        
+
+                <form>
+                    <div class="project form-group">
+                    <label for="name_field">Name</label>
+                    <input type="password" class="form-control" id="name_field" name="sendername" placeholder="Your name">
+                    </div>
+                    <div class="project form-group">
+                        <label for="email_field">Email</label>
+                        <input type="email" class="form-control" id="email_field" name="senderemail" aria-describedby="emailHelp" placeholder="your@emailaddress.com">
+                    </div>
+                    <div class="project form-group">
+                        <label for="message_field">Message</label>
+                        <textarea class="form-control" id="message_field" rows="3" name="sendermessage" placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark" value="Submit">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

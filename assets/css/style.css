@@ -1,0 +1,92 @@
+body {
+    max-width: 800px !important;
+}
+
+h5 {
+    color: #3da4ed;
+    font-family: "Saira Condensed","Roboto Condensed", sans-serif;
+    font-weight: bolder;
+    padding: 4px;
+}
+
+.row-project {
+    margin-bottom: 50px;
+}
+
+#bk-portrait {
+    margin-top: 8px;
+    max-width: 300px
+}
+
+.nav-link {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar-nav > .nav-item.active > .nav-link {
+    color: rgb(241, 90, 41);
+}
+
+.navbar-social {
+    padding: 10px 0;
+}
+
+.nav-item.social {
+    margin-left: 15px;
+}
+
+.nav-item.social > a > i {
+    color: rgba(0,0,0,.5); 
+}
+
+.roles {
+    color: rgb(241, 90, 41);
+    font-family: 'Exo 2', sans-serif;
+    /* font-weight: bold; */
+    margin-left: .18em;
+    border-left: 2px dotted lightgray;
+    padding-left: 8px;
+}
+
+.section {
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    padding: 30px 0;
+}
+
+.grey-bkg {
+    background-color: whitesmoke;
+}
+
+#bk-name {
+    font-family:'Exo 2', sans-serif; 
+    font-weight:bold;
+}
+
+.project-btn {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 42px;
+    line-height: 22px;
+    background-color: #6c757d; 
+    color: whitesmoke;
+} */
+
+@media screen and (max-width: 768px) {
+
+    #bk-portrait {
+        margin-top: 12px;
+        max-width: 85vw;
+    }
+    
+}
+
+
